@@ -110,7 +110,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['filename'])) {
                 </article>
             </div><!--end .col -->
             <div class="col-lg-offset-1 col-md-8" style="margin-left:0px;">
-                <form class="form" id="frm" method="POST" action="<?= $base_url; ?>credit-score/upload" enctype="multipart/form-data">
+                <form class="form" id="frm" method="POST" action="<?= $base_url; ?>credit-score-classification/web/upload" enctype="multipart/form-data">
                     <div class="card">
                         <div class="card-body">
                             <label for="file">Filename:</label>

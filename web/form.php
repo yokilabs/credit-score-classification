@@ -136,7 +136,7 @@
             <!-- BEGIN VERTICAL FORM -->
             <div class="row">
                 <div class="col-md-8" style="width:100%">
-                    <form class="form" action="<?= $base_url; ?>credit-score/form">
+                    <form class="form" action="<?= $base_url; ?>credit-score-classification/web/form">
                         <div class="card">
                             <div class="card-head style-primary">
                                 <header>Customer Info</header>

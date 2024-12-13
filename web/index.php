@@ -6,7 +6,7 @@ include "config.php";
 
 $req_uri = $_SERVER['REQUEST_URI'];
 $my_uri = explode('/',$req_uri);
-$page = $my_uri[2];
+$page = $my_uri[3];
 // var_dump(parse_url($req_uri, PHP_URL_QUERY));
 // echo $_GET['filename'];
 ?>
@@ -26,7 +26,7 @@ $page = $my_uri[2];
 		<link href='http://fonts.googleapis.com/css?family=Roboto:300italic,400italic,300,400,500,700,900' rel='stylesheet' type='text/css'/>
 		<link type="text/css" rel="stylesheet" href="assets/css/theme-default/bootstrap.css?1422792965" />
 		<link type="text/css" rel="stylesheet" href="assets/css/theme-default/materialadmin.css?1425466319" />
-		<link type="text/css" rel="stylesheet" href="assets/css/theme-default/font-awesome.min.css?1422529194" />
+		<link type="text/css" rel="stylesheet" href="assets/css/theme-default/font-awesome.min.css?1" />
 		<link type="text/css" rel="stylesheet" href="assets/css/theme-default/material-design-iconic-font.min.css?1421434286" />
 		<link type="text/css" rel="stylesheet" href="assets/css/theme-default/libs/DataTables/jquery.dataTables.css?1423553989" />
 		<link type="text/css" rel="stylesheet" href="assets/css/theme-default/libs/DataTables/extensions/dataTables.colVis.css?1423553990" />
@@ -207,7 +207,7 @@ $page = $my_uri[2];
 							</a>
 							<!--start submenu -->
 							<ul>
-								<li><a href="<?= $base_url; ?>credit-score/upload" ><span class="title">Upload File</span></a></li>
+								<li><a href="<?= $base_url; ?>credit-score-classification/web/upload" ><span class="title">Upload File</span></a></li>
 							</ul><!--end /submenu -->
 						</li><!--end /menu-li -->
 						<!-- END TABLES -->
@@ -220,7 +220,7 @@ $page = $my_uri[2];
 							</a>
 							<!--start submenu -->
 							<ul>
-								<li><a href="<?= $base_url; ?>credit-score/form" ><span class="title">Input Data</span></a></li>
+								<li><a href="<?= $base_url; ?>credit-score-classification/web/form" ><span class="title">Input Data</span></a></li>
 							</ul><!--end /submenu -->
 						</li><!--end /menu-li -->
 						<!-- END FORMS -->
