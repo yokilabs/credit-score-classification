@@ -79,4 +79,4 @@ MIT License
 
 ## Contact
 
-For questions, contact octavian.wr@gmail.com.
+For questions, contact yoki.wahyu@gmail.com.
