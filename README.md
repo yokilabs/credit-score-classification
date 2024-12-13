@@ -30,7 +30,7 @@ A simple Web-based application to predict the credit score classification that t
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your_username/credit-score.git
+   git clone https://github.com/your_username/credit-score-classification.git
    cp -rv credit-score /var/www/
    cd credit-score
    ```
@@ -49,7 +49,7 @@ A simple Web-based application to predict the credit score classification that t
 - Open http://127.0.0.1:8000/docs
 
 5. Run the web application:
-- Open http://localhost/credit-score/web/
+- Open http://localhost/credit-score-classification/web/
 
 ## Endpoints
 - `GET /cresco/`
