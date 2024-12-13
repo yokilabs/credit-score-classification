@@ -56,7 +56,7 @@ A simple Web-based application to predict the credit score classification that t
     - Health check for the API
 - `POST /cresco/predict/`
     - Input: JSON object with all features.
-    - Output: Predicted credit score (0,1,2).
+    - Output: Predicted credit score (Poor, Standard, Good).
 - `POST /cresco/upload_csv/`
     - Input: .csv file `datas/test 0-100.csv`
     - Output: filename, predicted (.csv) file directory, converted dataframe to JSON.
