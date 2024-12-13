@@ -26,12 +26,14 @@ A simple Web-based application to predict the credit score classification that t
 ### Prerequisites
 - Python 3.10+
 - pip
+- Apache 2.4
+- PHP 7.4
 
 ### Steps
 1. Clone the repository:
    ```bash
    git clone https://github.com/yokilabs/credit-score-classification.git
-   cp -rv credit-score /var/www/
+   cp -rv credit-score-classification /var/www/
    cd credit-score
    ```
 
