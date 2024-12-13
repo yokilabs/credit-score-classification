@@ -30,7 +30,7 @@ A simple Web-based application to predict the credit score classification that t
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your_username/credit-score-classification.git
+   git clone https://github.com/yokilabs/credit-score-classification.git
    cp -rv credit-score /var/www/
    cd credit-score
    ```
