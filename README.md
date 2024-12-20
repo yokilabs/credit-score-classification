@@ -5,7 +5,7 @@ A simple Web-based application to predict the credit score classification that t
 ## Features
 - Predict customer credit score (0 = `Poor`, 1 = `Standard`, 2 = `Good`).
 - FastAPI framework for API endpoints.
-- Simple PHP, HTML, CSS, JQuery web-app.
+- Simple Python, PHP, HTML, CSS, JQuery web-app.
 
 ---
 
