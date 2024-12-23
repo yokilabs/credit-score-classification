@@ -1,6 +1,6 @@
 # Iris Prediction API
 
-A simple Web-based application to predict the credit score classification that trained using Random Forest model. The web application is connected to the model via fastapi library.
+A simple Web-based application to predict the credit score classification that trained using Random Forest model. The web application is connected to the model via fastapi python library.
 
 ## Features
 - Predict customer credit score (0 = `Poor`, 1 = `Standard`, 2 = `Good`).
@@ -14,7 +14,8 @@ A simple Web-based application to predict the credit score classification that t
 - `app/credit_score_model.pkl.zip`: Pre-trained Customer Credit Score model (Random Forest).
 - `notebook/Credit Score Classification - 3 Class.ipynb`: Jupyter Notebook for training the model.
 - `web/index.php` Index web page.
-- `we/config.php` Config file for web app.
+- `web/config.php` Config file for web app.
+- `web/functions.php` php file that contains functions.
 - `web/form.php` The page that contain a form to input data.
 - `web/upload.php` The page that contain a simple form to upload .csv file.
 - `requirements.txt`: Python dependencies.
