@@ -11,7 +11,7 @@ A simple Web-based application to predict the credit score classification that t
 
 ## File Structure
 - `app/main.py`: FastAPI application with endpoints.
-- `app/credit_score_model.pkl.zip`: Pre-trained Customer Credit Score model (Random Forest).
+- `app/credit_score_model.pkl.zip`: Pre-trained Customer Credit Score model (Random Forest 83% accuracy).
 - `notebook/Credit Score Classification - 3 Class.ipynb`: Jupyter Notebook for training the model.
 - `web/index.php` Index web page.
 - `web/config.php` Config file for web app.
